@@ -1,3 +1,5 @@
+#import "../../templates/notes_template.typ": page_settings
+
 #let lecture_4(doc) = [
   = Лекция 4.
   == Этот конспект не завешен.
@@ -46,4 +48,5 @@
   #doc
 ]
 
+#show: page_settings
 #show: lecture_4

@@ -12,6 +12,20 @@
     fill: none
   )
   pagebreak(weak: false)
+
+  show outline.entry.where(
+    level: 1
+  ): it => {
+    v(12pt, weak: true)
+    strong(it)
+  }
+  outline(
+    title: [Содержание],
+    fill: line(length: 100%),
+    indent: 2em,
+  )
+  pagebreak(weak: false)
+
   body
 }
 
@@ -28,20 +42,6 @@
   #set text(
     font: "New Computer Modern",
   )
-
-  #show outline.entry.where(
-    level: 1
-  ): it => {
-    v(12pt, weak: true)
-    strong(it)
-  }
-  #outline(
-    title: [Содержание],
-    fill: line(length: 100%),
-    indent: 2em,
-  )
-  
-  #pagebreak(weak: false)
 
   #show raw.where(block: false): box.with(
     fill: luma(240),
@@ -70,5 +70,6 @@
       }
     ),
   )
+  
   body
 }

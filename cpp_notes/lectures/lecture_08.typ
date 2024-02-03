@@ -1,3 +1,5 @@
+#import "../../templates/notes_template.typ": page_settings
+
 #let lecture_8(doc) = [
   = Лекция 8.
   == Динамическая память
@@ -52,4 +54,5 @@
   #doc
 ]
 
+#show: page_settings
 #show: lecture_8

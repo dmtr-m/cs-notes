@@ -1,3 +1,5 @@
+#import "../../templates/notes_template.typ": page_settings
+
 #let lecture_7(doc) = [
   = Лекция 7.
   == Классы
@@ -141,4 +143,5 @@
   #doc
 ]
 
+#show: page_settings
 #show: lecture_7

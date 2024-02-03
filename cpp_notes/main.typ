@@ -1,6 +1,7 @@
 #import "../templates/notes_template.typ": *
 #let course = "Язык программирования C++"
 #let title = "Конспект лекций"
+#show: page_settings
 #show: footer_header.with(
   title,
   course
@@ -9,7 +10,6 @@
   title,
   course
 )
-#show: page_settings
 
 #import "lectures/lecture_01.typ": lecture_1
 #show: lecture_1

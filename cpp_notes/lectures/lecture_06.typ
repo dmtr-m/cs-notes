@@ -1,3 +1,5 @@
+#import "../../templates/notes_template.typ": page_settings
+
 #let lecture_6(doc) = [
   = Лекция 6.
   == Строки.
@@ -134,4 +136,5 @@
   #doc
 ]
 
+#show: page_settings
 #show: lecture_6

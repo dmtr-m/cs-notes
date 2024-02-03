@@ -1,3 +1,5 @@
+#import "../../templates/notes_template.typ": page_settings
+
 #let lecture_2(doc) = [
   = Лекция 2.
   TODO
@@ -5,4 +7,5 @@
   #doc
 ]
 
+#show: page_settings
 #show: lecture_2
